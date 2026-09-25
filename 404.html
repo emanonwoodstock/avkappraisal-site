@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — AVK Appraisal Services</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.jpg" alt="AVK Appraisal Services logo" width="150" height="150"></a>
+      <p class="tagline">Over 15 years' experience in Northern California Counties.</p>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <ul id="main-nav" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="residential-appraisal.html">Residential Appraisal</a></li>
+          <li><a href="estate.html">Estate</a></li>
+          <li><a href="divorce.html">Divorce</a></li>
+          <li><a href="expert-witness.html">Expert Witness</a></li>
+          <li><a href="faq.html">F.A.Q.</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="contact-bar">
+        <a href="tel:+19165720222">Office: (916) 572-0222</a>
+        <a href="mailto:info@avkappraisal.com">info@avkappraisal.com</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 1rem; text-align: center;">
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or may have moved.</p>
+    <p><a href="index.html">Return to the homepage</a> or <a href="contact.html">contact us</a> if you were expecting to find something here.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>AVK Appraisal Services</strong> &mdash; Christopher Kroschel, OREA License #AR008286</p>
+      <p><a href="tel:+19165720222">(916) 572-0222</a> | <a href="mailto:info@avkappraisal.com">info@avkappraisal.com</a></p>
+      <p>West Sacramento, Sacramento and Davis, California</p>
+      <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+  (function(){
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('main-nav');
+    if (btn && nav) {
+      btn.addEventListener('click', function() {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('open');
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
