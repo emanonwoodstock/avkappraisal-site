@@ -417,15 +417,6 @@ p {
   min-width: 36rem;
 }
 
-.data-table caption {
-  caption-side: top;
-  text-align: left;
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 1.05rem;
-  color: #1a1a1a;
-  padding-bottom: 0.5em;
-}
-
 .data-table th,
 .data-table td {
   padding: 0.6em 0.75em;
